@@ -1,0 +1,15 @@
+body{
+    margin: 0;
+    
+}
+.imgh{
+    width: 1500px;
+    height: 100vh;
+  /* Ensure the image covers the entire container */
+    position: absolute;
+    top: 110px; /* Adjust this value based on your Navbar height */
+    left: 0;
+    margin: 0;
+    object-fit: cover;
+    z-index: -1; /* Ensure the image is behind other content */
+}
