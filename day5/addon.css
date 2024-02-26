@@ -1,0 +1,86 @@
+.tabs {
+    display: flex;
+    position: absolute;
+    top:130px;
+  }
+  
+  .tabs div {
+    padding: 10px 20px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+  }
+  
+  .tabs div.active {
+    border-bottom: 2px solid rgb(78, 74, 74); /* Change color as needed */
+  }
+  
+  /* Plans */
+  .plans {
+    margin-top: 20px;
+    position: absolute;
+    top:200px;
+  }
+  
+  .plans > div {
+    display: none;
+  }
+  
+  .plans > div:first-child {
+    display: block; 
+  }
+  
+  .plans h2 {
+    margin-bottom: 10px;
+  }
+  
+  .plans ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .plans ul li {
+    border: 1px solid yellow;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .plans ul li p {
+    margin: 5px 0;
+  }
+  
+  .plans{
+    padding-left: 20px;
+  }
+  .add-on-whole{
+    height: 130px;
+    width: 100%;
+    border: 1px solid rgb(18, 16, 16);
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: rgb(0,0,0,0.1);
+    padding: 10px;
+   
+  }
+  .add-on-top{
+    height: 80%;
+    gap: 10rem;
+    display: flex;
+    /* background-color: aquamarine; */
+    border-bottom: 1px solid grey;
+  }
+  /* .add-on-top-right{
+    background-color: yellow;
+  } */
+  .add-on-bottom{
+    height: 20%;
+    gap: 15.5rem;
+    display: flex;
+
+    /* padding: 2px; */
+    /* background-color: green; */
+  }
+
+  .content-div-div{
+    background-color:rgb(22, 22, 22);
+    height: 90vh;
+  }
