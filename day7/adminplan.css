@@ -1,0 +1,56 @@
+.form-container {
+  width: 400px;
+  margin: 0 auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+#label {
+  margin-bottom: 5px;
+}
+
+#planType,#datae,#calls,#validity,#cost {
+  padding: 8px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+#add-but {
+  padding: 10px;
+  background-color: rgb(14, 2, 81);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+#whole-form{
+  width:500px;
+  height:500px;
+  padding-top: 30px;;
+  border:2px solid white;
+  border-radius: 10px;
+  box-shadow:5px 5px 5px 5px rgb(204, 203, 203);
+  margin-left:500px;
+  margin-top:110px;
+  background-color: white;
+}
+
+#background-image{
+  background-image: url('https://image-us.samsung.com/SamsungUS/support/solutions/mobile/phones/galaxy-s/s23/PH_S23_Use_Digital_wellbeing_features_on_your_Galaxy_phone_or_tablet.png');
+  background-size: cover;
+  background-position: center;
+  position: fixed;
+  top: 100px;
+  left: 0;
+  width: 100%;
+  height: 100%;
+ 
+}
