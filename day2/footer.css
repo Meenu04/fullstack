@@ -1,0 +1,36 @@
+.main-footer {
+    color: white;
+    background-color: rgba(24, 23, 23, 0.9);
+    position: absolute;
+  
+ 
+    top:700px;
+    width: 1490px;
+    height:300px;
+     left:0%;
+    padding: 30px;
+  
+  }
+  .row
+  {
+    display: flex;
+    gap: 8rem;
+  }
+  .row_sm
+  {
+    padding: 10px;
+  }
+  
+  li
+  {
+    list-style: none;
+  }
+  .fot 
+  {
+    padding: 3px;   
+  }
+  .fot1
+  {
+    float: left;
+    padding-left: 7px;
+  }
